@@ -214,8 +214,8 @@ header .bottom{
 }
 
 header .img-hous{
-margin-left: 300px;
-
+width: 2000px;
+margin-left: -200px;
 }
 
 .tittle{
@@ -394,19 +394,38 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .benefit {
-   background-image: url(img/Group\ 31.png), url(img/pexels-dakis-d-917332\ 1.png),url(img/Ellipse\ 10.png) ;
-   background-position: 510px 1050px, 650px 500px, 450px 250px;
-   background-repeat: no-repeat;
-    text-align: right;
-    
+   
+   
+       
+}
+
+.benefit .first_img_group{
+    display: inline-block;
+    border: 4px solid black;
+    position: relative;
+    vertical-align: top;
+}
+
+.benefit .disc_place{
+   position: absolute;
     
 }
 
+.benefit .red_hous{
+    position: absolute;
+    
+}
+
+.benefit .pink_circl{
+    position: absolute;
+    left: 0;
+    
+}
 
 .benefit .list{
     display: inline-block;
     width: 694px;
-    margin-top: 520px;
+   margin-left: 800px;
     text-align: left;
 
 }
@@ -453,12 +472,32 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 
 
-.sandiegonews{
-    background-image:url(img/Group\ 39.png), url(img/Group\ 37.png), url(img/Group\ 36\ \(1\).png), url(img/Vector\ 10.png), url(img/Vector\ 11.png);
-    background-repeat: no-repeat;
-    background-position: 1950px 420px, 1300px 860px, 1400px 300px, 1350px 350px, 1250px 200px;
-
+.sandiegonews .second_img_group{
+ 
+display: inline-block;
+position: relative;
+vertical-align: top;
                 
+}
+
+.sandiegonews .line_heart{
+    position: absolute
+}
+
+.sandiegonews .fon_heart{
+    position: absolute;
+}
+
+.sandiegonews .yel_hous{
+    position: absolute;
+}
+
+.sandiegonews .san_d{
+    position: absolute;
+}
+
+.sandiegonews .googl{
+    position: absolute;
 }
 
 .sandiegonews .text{
