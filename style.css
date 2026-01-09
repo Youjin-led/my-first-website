@@ -393,21 +393,19 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     color: white;
 }
 
-.benefit {
-   
-   
-       
-}
+
 
 .benefit .first_img_group{
     display: inline-block;
-    border: 4px solid black;
     position: relative;
     vertical-align: top;
+    margin-top: 520px;
 }
 
 .benefit .disc_place{
    position: absolute;
+   top: 600px;
+   left: -150px;
     
 }
 
@@ -418,15 +416,17 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 .benefit .pink_circl{
     position: absolute;
-    left: 0;
+    left: -200px;
+    top: -250px;
     
 }
 
 .benefit .list{
     display: inline-block;
     width: 694px;
-   margin-left: 800px;
+   margin-left: 910px;
     text-align: left;
+    margin-top: 520px;
 
 }
 .benefit .list h3{
@@ -477,27 +477,38 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 display: inline-block;
 position: relative;
 vertical-align: top;
+margin-top: 502px;
                 
 }
 
 .sandiegonews .line_heart{
-    position: absolute
+    position: absolute;
+    top: -350px;
+    
 }
 
 .sandiegonews .fon_heart{
     position: absolute;
+    top: -250px;
+    left: 160px;
 }
 
 .sandiegonews .yel_hous{
     position: absolute;
+    left: 140px;
+    top: -200px;
 }
 
 .sandiegonews .san_d{
     position: absolute;
+    top: 400px;
+    left: 50px;
 }
 
 .sandiegonews .googl{
     position: absolute;
+    left: 720px;
+    top: -80px;
 }
 
 .sandiegonews .text{
@@ -637,10 +648,34 @@ color: var(--dark_color);
 
 .subscribe{
     padding-top: 290px;
-    background-image: url(img/Rectangle\ 33.png), url(img/Ellipse\ 20.png), url(img/Frame\ 1.png);
-    background-repeat: no-repeat;
-    background-position: 450px 230px, 2300px 650px, 2100px 450px;
     padding-bottom: 300px;
+   
+}
+
+.subscribe .subscribe_img_group{
+    display: inline-block;
+    position: relative;
+   
+}
+
+.subscribe .yellow_circle{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.subscribe .frame{
+    position: absolute;
+    top: -140px;
+    left: -130px;
+
+
+}
+
+.subscribe .red_line{
+    position: absolute;
+    left: -1750px;
+    top: -350px;
 }
 
 .subscribe .text{
@@ -666,6 +701,7 @@ display: inline-block;
 margin-left: 180px;
 margin-top: 90px;
 vertical-align: top;
+z-index: 1;
 }
 
 
